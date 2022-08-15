@@ -1,7 +1,0 @@
-prefix=/usr
-includedir=${prefix}/include/stb
-
-Name: stb
-Description: single-file public domain (or MIT licensed) libraries for C/C++
-Version: 1.0
-Cflags: -I${includedir}
