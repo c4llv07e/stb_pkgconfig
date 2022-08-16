@@ -7,5 +7,5 @@ install_dir ?= ${prefix}/lib/pkgconfig
 all: install
 
 install:
-	mv stb.pc ${install_dir}
+	cp stb.pc ${install_dir}
 
